@@ -1,8 +1,10 @@
+import React from "react";
 function MainArea() {
-    return (
-        <main>
-            <h1>여기는 본문 영역입니다.</h1>
-        </main>
-    );
+  const isLogin = true;
+   return (
+    <div>
+         {isLogin&&  <h2>환영합니다!</h2>}
+    </div>
+   );
 }
-export default MainArea;
+    export default MainArea
