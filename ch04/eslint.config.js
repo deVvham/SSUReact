@@ -23,6 +23,8 @@ export default defineConfig([
       },
     },
     rules: {
-      "no-unused-vars": "off", "react/prop-types": "off", "react-refresh/only-export-components": "off",
+      "no-unused-vars": "off",  //사용되지 않은 변수가 있으면 경고 
+      "react/prop-types": "off",  //propTypes를 정의하지 않으면 경고
+      "react-refresh/only-export-components": "off", //컴포넌트가 아닌 다른 값을 함께 export할 때 경고
   },
 }]);
