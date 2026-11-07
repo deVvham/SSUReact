@@ -1,5 +1,4 @@
 function PropsBody({ children }) {
-    return <div className="body">{children}</div>
+    return <>{children}</>
 }
 export default PropsBody;
-
